@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 3</title>
+</head>
+<body>
+    
+
+<h1>Este es el ejercicio 3 de Lenguaje de marcas.</h1>
+<hr> 
+<p>En este sitio web se Esta realizando el ejercicio numero 3 de la primera relacion de html.</p>
+<hr>
+pre cite abbr dfn
+<abbr title="Real Academia Española">RAE</abbr>
+
+<p><dfn>ESTO</dfn> es un ejemplo de remarcar una palabra y darle una definicion usando dfn.</p>
+<pre> Esta es la demostracion del 
+    uso de pre para representar un
+    texto preformateado.</pre>
+<p><cite>Esto</cite> es una cita</p>
+</body>
+</html>
