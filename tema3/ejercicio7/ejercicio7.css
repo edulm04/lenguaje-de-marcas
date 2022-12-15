@@ -1,0 +1,16 @@
+.capa {
+    width: 50%;
+    height: 50%;
+  }
+  .capa:nth-child(1) {
+    background-color: red;
+  }
+  .capa:nth-child(2) {
+    background-color: green;
+  }
+  .capa:nth-child(3) {
+    background-color: blue;
+  }
+  .capa:nth-child(4) {
+    background-color: yellow;
+  }
