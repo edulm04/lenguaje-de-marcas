@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: brown;
+    width: 100%;
+}
+#izquierda{
+    width: 20%;
+    background-color: aqua;
+    float: left;
+
+}
+p{
+    padding: 20%;
+}
+#derecha{
+    width: 80%;
+    float: right;
+    background-color: blueviolet;
+}
