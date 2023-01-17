@@ -4,7 +4,43 @@
     padding: 0;
 }
 header{
+    padding: 10px;
     text-align: center;
     width: 100%;
     background-color: aqua;
 }
+
+
+
+.principal{
+    float: right;
+}
+
+#galaxia {
+    float: left;
+    margin: 10px;
+    
+}
+
+nav ul{
+    width: 100%;
+
+}
+nav ul li{
+    float: left;
+
+}
+footer{
+    
+        border: 1px solid black;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+        background-color: lightblue;
+      
+}
+body{
+    color: turquoise;
+}
+
