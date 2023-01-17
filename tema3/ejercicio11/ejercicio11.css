@@ -1,0 +1,19 @@
+#ordenada li{
+    text-indent: 40px;
+    list-style-type: upper-roman;
+    padding-left: 10px;
+
+}
+#desordenada li{
+    list-style-position: inside;
+
+}
+#primera{
+    list-style-image: url("./img/CUADRADO.jpg")
+}
+#segunda{
+    list-style-image:  url("./img/CUADRADO.jpg")
+}
+#tercera{
+    list-style-image:  url("./img/CUADRADO.jpg")
+}
