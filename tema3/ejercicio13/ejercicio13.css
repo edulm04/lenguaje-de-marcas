@@ -22,6 +22,13 @@ header{
     
 }
 
+#galaxia_2 {
+    float: right;
+    margin: 10px;
+    
+}
+
+
 nav ul{
     width: 100%;
 
@@ -41,6 +48,9 @@ footer{
       
 }
 body{
-    color: turquoise;
+    color: black;
+}
+img{
+    text-align: center;
 }
 
