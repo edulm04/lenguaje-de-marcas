@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercio16</title>
+    <link rel="stylesheet" href="ejercicio16.css">
 </head>
+
 <body>
-    
+
+    <h1 id="h1" >TELEBIRRIA</h1>
+    <h2 id ="h2"> PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
+    <form id="DATOS PERSONALES Y ENVIO">
+        <fieldset>
+            <legend><b>Datos personales y envío</b></h2>
+            </legend>
+            <label>Nombre</label>
+            <input type="text"></input>
+            <br>
+            <label>Apellidos</label>
+            <input type="text"></input>
+            <br>
+            <label>Domicilio</label>
+            <input type="text"></input>
+            <br>
+            <label>Código Postal</label>
+            <input type="text"></input>
+            <br>
+            <label>Teléfono</label>
+            <input type="tel"></input>
+            <br>
+        </fieldset>
+    </form>
+    <form>
+        <div>
+            <fieldset>
+
+                <legend><b>Elija la opción de entrega</b></legend>
+                <form>
+
+                    <input type="radio" id="local" name="entrega" value="Recoger en el local"></input>
+                    <label for="local">Recoger en el local</label>
+                    <br>
+                    <input type="radio" id="Domicilio" name="entrega" value="Enviar a Domicilio"></input>
+                    <label for="Domicilio">Enviar a Domicilio</label>
+
+
+                </form>
+
+
+
+
+            </fieldset>
+        </div>
+        <div>
+
+            <fieldset>
+
+                <legend><b>¿quiere que le enviemos nuestras ofertas </b></legend>
+
+
+                <input type="checkbox" id="enviar" name="fax" value="enviar al domicilio"></input>
+                <label for="enviar">Enviar al Domicilio</label>
+                <br>
+                <input type="checkbox" id="email" name="fax" value="enviar por email"></input>
+                <label>Enviar por email</label>
+
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend><b>Elija su menu</b></legend>
+
+                <label for="Tamaño">Tamaño del bocadillo</label>
+                <select name="Tamaño" id="Tamaño">
+                    <option value="volvo">pequeño</option>
+                    <option value="saab">mediano</option>
+                    <option value="opel">grande</option>
+                    <option value="audi">enorme</option>
+                    <option value="audi">gigante</option>
+                </select>
+                <br>
+                <br>
+                <label for="Tamaño">contenido del bocadillo</label>
+                <select name="Tamaño" id="Tamaño">
+                    <option value="volvo">anchoas </option>
+                    <option value="saab">calamares</option>
+                    <option value="opel">mejillones</option>
+                    <option value="audi">jamon</option>
+
+                </select>
+                <br><br>
+                <label for="sugerencia">puede añadir alguna sugerencia</label>
+                <br><br>
+                <textarea id="sugerencia" name="sugerencia" rows="4" cols="50"></textarea>
+
+
+                </textarea>
+                <br>
+
+
+
+
+
+
+
+            </fieldset>
+            <br>
+            <input type="submit" value="enviar">
+
+        </div>
+
+
+
+
+
+
 </body>
+
 </html>
