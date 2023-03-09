@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="prueba.css" type="text/css"?>
-<playlist>
+<playlist xmlns="mis Canciones" xmlns:owner="el autor">
 <cancion>
 Ella no sigue modas
-<autor>Juan Magan</autor>
+<autor papel="principal">Juan Magan</autor>
 <fecha>2012</fecha>
 <duracion>4:07</duracion>
 </cancion>
@@ -12,5 +12,13 @@ Ella no sigue modas
     <autor>Eladio Carrion</autor>
     <fecha>2022</fecha>
     <duracion>3:40</duracion>
+</cancion>
+<cancion>
+    <titulo>TQG</titulo>
+    
+    <autor palel="principal">Karol G</autor>
+    <autor palel="colaborador">Shakira</autor>
+    <fecha>2023</fecha>
+    <duracion>2:30</duracion>
 </cancion>
 </playlist>
