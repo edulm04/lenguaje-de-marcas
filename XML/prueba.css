@@ -1,0 +1,10 @@
+cancion{
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+}
+cancion > *{
+    display: block;
+    font-size: xx-large;
+}

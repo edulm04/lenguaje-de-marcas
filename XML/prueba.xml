@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="prueba.css" type="text/css"?>
+<playlist>
+<cancion>
+Ella no sigue modas
+<autor>Juan Magan</autor>
+<fecha>2012</fecha>
+<duracion>4:07</duracion>
+</cancion>
+<cancion>
+    Mbappe
+    <autor>Eladio Carrion</autor>
+    <fecha>2022</fecha>
+    <duracion>3:40</duracion>
+</cancion>
+</playlist>

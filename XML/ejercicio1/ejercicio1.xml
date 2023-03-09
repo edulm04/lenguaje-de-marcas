@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+    <remitente>
+        <nombre></nombre>
+        <email></email>
+
+    </remitente>
+    <destinatario>
+        <nombre></nombre>
+        <email></email>
+    </destinatario>
+    <asunto>
+
+    </asunto>
+    <texto>
+        <parrafo>
+            hola soy edu
+            hola soy edu
+            hola soy edu
+        </parrafo>
+    </texto>
+    
+</mensaje>
