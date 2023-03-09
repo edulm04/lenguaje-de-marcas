@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mensaje xmlns="correo">
+<mensaje xmlns:correo ="correo">
     <remitente>
         <nombre></nombre>
-        <email></email>
+        <correo:email></correo:email>
 
     </remitente>
     <destinatario>
         <nombre></nombre>
-        <email></email>
+        <correo:email></correo:email>
     </destinatario>
     <asunto>
 
