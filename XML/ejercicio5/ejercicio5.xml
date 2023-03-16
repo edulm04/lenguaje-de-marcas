@@ -1,1 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<mensaje xmlns:correo ="correo">
+    <remitente>
+        <nombre></nombre>
+        <correo:email>correo nuevo</correo:email>
+
+    </remitente>
+    <destinatario>
+        <nombre></nombre>
+        <correo:email></correo:email>
+    </destinatario>
+    <asunto>
+
+    </asunto>
+    <texto>
+        <parrafo>
+            hola soy edu
+            hola soy edu
+            hola soy edu
+        </parrafo>
+    </texto>
+    
+</mensaje>

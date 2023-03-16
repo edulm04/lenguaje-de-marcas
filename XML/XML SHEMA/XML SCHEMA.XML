@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raiz xmlns:xs="https://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation = "./EjemploXS.xsd">
+<etiqueta1>12345667A</etiqueta1>
+<etiqueta2>
+    <etiqueta3>2023-03-14</etiqueta3>
+</etiqueta2>
+</raiz>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema">
+ <xs:element name ="raiz">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="etiqueta1" type="xs:integer"  minOccurs="unbounded" maxOccurs="unbounded"/>
+            <xs:element name="etiqueta2" type = ""/>
+        </xs:sequence>
+        
+    </xs:complexType>
+ </xs:element>
+
+    <xs:complexType name="tipoEtiqueta2">
+        <xs:sequence>
+            <xs:element name="etiqueta3" type="xs:date"></xs:element>
+        </xs:sequence>
+
+
+    </xs:complexType>
+
+    <xs:simpleType name="numerosPositivos">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"></xs:minInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:sympleType name="hoyAyer">
+        <xs:restriction base= "xs:date">
+            <xs:enumeration value="2023-03-16"></xs:enumeration>
+            <xs:enumeration value="2023-03-15"></xs:enumeration>
+        </xs:restriction>
+
+
+
+
+
+    </xs:sympleType>
+</xs:schema> 
