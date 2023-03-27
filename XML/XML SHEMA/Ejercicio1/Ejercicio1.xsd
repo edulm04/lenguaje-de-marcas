@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mensaje">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="remitente" type="contacto" />
+        <xs:element name="destinatario" type="contacto"/>
+        <xs:element name="asunto" type="xs:string"/>
+        <xs:element name="texto" type="texto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:complexType name="contacto">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string" />
+      <xs:element name="email" type="email"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:simpleType name="email">
+    <xs:restriction base="xs:string">
+      <!-- .+\@.+\..+ -->
+  <!-- ([aZ]|\w|\d|\-|_)+(.([aZ]|\w|\d|\-|_)+)*@([aZ]|\w|\d|\-|_)+(.([aZ]|\w|\d|\-|_)+) -->
+      <xs:pattern value="([A-z]|\.|_)+(\.([A-z]|\.|_)+)*@([A-z]|\.|_)+(\.([A-z]|\.|_)+)*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="texto">
+    <xs:sequence>
+      <xs:element name="parrafo" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  
+  <xs:simpleType name="numerosPositivos">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  
+
+</xs:schema>
