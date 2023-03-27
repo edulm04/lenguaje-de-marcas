@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<mensaje 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Ejercicio1.xsd">
+  <remitente>
+    <nombre>Edu</nombre>
+    <email>Edu@gmail.com</email>
+  </remitente>
+  <destinatario>
+    <nombre>ruben</nombre>
+    <email>Ruben@hotmail.com</email>
+  </destinatario>
+  <asunto>Asuntitos</asunto>
+  <texto>
+    <parrafo>Temas importantes que tratar</parrafo>
+    <parrafo>temas</parrafo>
+  </texto>
+</mensaje>
 
