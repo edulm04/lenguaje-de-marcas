@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="album">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fecha" type="xs:date"/>
+        <xs:element name="canciones" type="canciones"/>
+      </xs:sequence> 
+      <xs:attribute name="titulo" type="xs:string" default="CD" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="canciones">
+    <xs:sequence>
+      <xs:element name="cancion" type="cancion" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="cancion">
+    <xs:sequence>
+      <xs:element name="titulo" type="xs:string"/>
+      <xs:element name="compositores" type="compositores"/>
+      <xs:element name="productores" type="productores"/>
+      <xs:element name="sello" type="xs:string" />
+      <xs:element name="artista" type="xs:string" />
+    </xs:sequence>
+
+    <xs:attribute name="duracion" type="duracion" use="required"/>
+    <xs:attribute name="anio" type="xs:integer" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="compositores">
+    <xs:sequence>
+      <xs:element name="compositor" type="persona" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="productores">
+    <xs:sequence>
+      <xs:element name="productor" type="persona" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="persona">
+    <xs:sequence>
+      <xs:element name="nombres" type="xs:string"/>
+      <xs:element name="apellidos" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="duracion">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-5]\d:[0-5]\d"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
