@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<album xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio3.xsd" titulo="La Cancion">
+    <fecha>1995-10-08</fecha>
+    <canciones>
+        <cancion duracion="04:47" anio="2008">
+            <titulo>Give It To Me</titulo>
+            <compositores>
+                <compositor>
+                    <nombres>Pharrell</nombres>
+                    <apellidos>Wiilliams</apellidos>
+                </compositor>
+            </compositores>
+            <productores>
+                <productor>
+                    <nombres>Pharrell</nombres>
+                    <apellidos>Williams</apellidos>
+                </productor>
+            </productores>
+            <sello>Warner Bros Records</sello>
+            <artista>Madona</artista>
+        </cancion>
+        
+    </canciones>
+</album>
